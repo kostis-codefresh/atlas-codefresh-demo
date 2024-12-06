@@ -18,4 +18,4 @@ spec:
   dir:
     remote:
       name: atlas-argo-demo
-      tag: 999fd83027b2446c7d282d0d52b5bf2f4a41805b
+      tag: latest
