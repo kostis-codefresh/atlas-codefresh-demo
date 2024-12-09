@@ -8,6 +8,7 @@ on:
       - .github/workflows/ci-atlas.yaml
       - 'migrations/*'
   pull_request:
+    types: [opened, reopened, synchronize, edited]   
     paths:
       - 'migrations/*'
 # Permissions to write comments on the pull request.
