@@ -13,6 +13,7 @@ CREATE TABLE posts (
     summary TEXT NOT NULL,
     rating INT,
     upvotes INT,
+    downvotes INT,
     main_topic VARCHAR(100) NOT NULL,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users (id)
